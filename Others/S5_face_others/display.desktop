@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Desktop Display
+Exec=/usr/bin/python3 /home/pi/display.py
+Terminal=false
+

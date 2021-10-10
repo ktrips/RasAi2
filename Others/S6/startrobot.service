@@ -1,0 +1,8 @@
+[Service]
+ExecStart=sudo /bin/bash /home/pi/robot/startrobot.sh
+WorkingDirectory=/home/pi/robot
+Restart=always
+User=pi
+[Install]
+WantedBy=multi-user.target
+
